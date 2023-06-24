@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E98374422A46DD33008F62F6 /* eleosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98374412A46DD33008F62F6 /* eleosApp.swift */; };
+		E98374442A46DD33008F62F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98374432A46DD33008F62F6 /* ContentView.swift */; };
+		E98374462A46DD35008F62F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98374452A46DD35008F62F6 /* Assets.xcassets */; };
+		E983744A2A46DD35008F62F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98374492A46DD35008F62F6 /* Preview Assets.xcassets */; };
+		E98374542A46DD35008F62F6 /* eleosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98374532A46DD35008F62F6 /* eleosTests.swift */; };
+		E983745E2A46DD35008F62F6 /* eleosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E983745D2A46DD35008F62F6 /* eleosUITests.swift */; };
+		E98374602A46DD35008F62F6 /* eleosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E983745F2A46DD35008F62F6 /* eleosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E98374502A46DD35008F62F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98374362A46DD33008F62F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E983743D2A46DD33008F62F6;
+			remoteInfo = eleos;
+		};
+		E983745A2A46DD35008F62F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98374362A46DD33008F62F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E983743D2A46DD33008F62F6;
+			remoteInfo = eleos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E983743E2A46DD33008F62F6 /* eleos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eleos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98374412A46DD33008F62F6 /* eleosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleosApp.swift; sourceTree = "<group>"; };
+		E98374432A46DD33008F62F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E98374452A46DD35008F62F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E98374472A46DD35008F62F6 /* eleos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = eleos.entitlements; sourceTree = "<group>"; };
+		E98374492A46DD35008F62F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E983744F2A46DD35008F62F6 /* eleosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eleosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98374532A46DD35008F62F6 /* eleosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleosTests.swift; sourceTree = "<group>"; };
+		E98374592A46DD35008F62F6 /* eleosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eleosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E983745D2A46DD35008F62F6 /* eleosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleosUITests.swift; sourceTree = "<group>"; };
+		E983745F2A46DD35008F62F6 /* eleosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E983743B2A46DD33008F62F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E983744C2A46DD35008F62F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98374562A46DD35008F62F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E98374352A46DD33008F62F6 = {
+			isa = PBXGroup;
+			children = (
+				E98374402A46DD33008F62F6 /* eleos */,
+				E98374522A46DD35008F62F6 /* eleosTests */,
+				E983745C2A46DD35008F62F6 /* eleosUITests */,
+				E983743F2A46DD33008F62F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E983743F2A46DD33008F62F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E983743E2A46DD33008F62F6 /* eleos.app */,
+				E983744F2A46DD35008F62F6 /* eleosTests.xctest */,
+				E98374592A46DD35008F62F6 /* eleosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E98374402A46DD33008F62F6 /* eleos */ = {
+			isa = PBXGroup;
+			children = (
+				E98374412A46DD33008F62F6 /* eleosApp.swift */,
+				E98374432A46DD33008F62F6 /* ContentView.swift */,
+				E98374452A46DD35008F62F6 /* Assets.xcassets */,
+				E98374472A46DD35008F62F6 /* eleos.entitlements */,
+				E98374482A46DD35008F62F6 /* Preview Content */,
+			);
+			path = eleos;
+			sourceTree = "<group>";
+		};
+		E98374482A46DD35008F62F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E98374492A46DD35008F62F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E98374522A46DD35008F62F6 /* eleosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E98374532A46DD35008F62F6 /* eleosTests.swift */,
+			);
+			path = eleosTests;
+			sourceTree = "<group>";
+		};
+		E983745C2A46DD35008F62F6 /* eleosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E983745D2A46DD35008F62F6 /* eleosUITests.swift */,
+				E983745F2A46DD35008F62F6 /* eleosUITestsLaunchTests.swift */,
+			);
+			path = eleosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E983743D2A46DD33008F62F6 /* eleos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98374632A46DD35008F62F6 /* Build configuration list for PBXNativeTarget "eleos" */;
+			buildPhases = (
+				E983743A2A46DD33008F62F6 /* Sources */,
+				E983743B2A46DD33008F62F6 /* Frameworks */,
+				E983743C2A46DD33008F62F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eleos;
+			productName = eleos;
+			productReference = E983743E2A46DD33008F62F6 /* eleos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E983744E2A46DD35008F62F6 /* eleosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98374662A46DD35008F62F6 /* Build configuration list for PBXNativeTarget "eleosTests" */;
+			buildPhases = (
+				E983744B2A46DD35008F62F6 /* Sources */,
+				E983744C2A46DD35008F62F6 /* Frameworks */,
+				E983744D2A46DD35008F62F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98374512A46DD35008F62F6 /* PBXTargetDependency */,
+			);
+			name = eleosTests;
+			productName = eleosTests;
+			productReference = E983744F2A46DD35008F62F6 /* eleosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E98374582A46DD35008F62F6 /* eleosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98374692A46DD35008F62F6 /* Build configuration list for PBXNativeTarget "eleosUITests" */;
+			buildPhases = (
+				E98374552A46DD35008F62F6 /* Sources */,
+				E98374562A46DD35008F62F6 /* Frameworks */,
+				E98374572A46DD35008F62F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E983745B2A46DD35008F62F6 /* PBXTargetDependency */,
+			);
+			name = eleosUITests;
+			productName = eleosUITests;
+			productReference = E98374592A46DD35008F62F6 /* eleosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E98374362A46DD33008F62F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E983743D2A46DD33008F62F6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E983744E2A46DD35008F62F6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E983743D2A46DD33008F62F6;
+					};
+					E98374582A46DD35008F62F6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E983743D2A46DD33008F62F6;
+					};
+				};
+			};
+			buildConfigurationList = E98374392A46DD33008F62F6 /* Build configuration list for PBXProject "eleos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E98374352A46DD33008F62F6;
+			productRefGroup = E983743F2A46DD33008F62F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E983743D2A46DD33008F62F6 /* eleos */,
+				E983744E2A46DD35008F62F6 /* eleosTests */,
+				E98374582A46DD35008F62F6 /* eleosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E983743C2A46DD33008F62F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E983744A2A46DD35008F62F6 /* Preview Assets.xcassets in Resources */,
+				E98374462A46DD35008F62F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E983744D2A46DD35008F62F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98374572A46DD35008F62F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E983743A2A46DD33008F62F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98374442A46DD33008F62F6 /* ContentView.swift in Sources */,
+				E98374422A46DD33008F62F6 /* eleosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E983744B2A46DD35008F62F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98374542A46DD35008F62F6 /* eleosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98374552A46DD35008F62F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E983745E2A46DD35008F62F6 /* eleosUITests.swift in Sources */,
+				E98374602A46DD35008F62F6 /* eleosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E98374512A46DD35008F62F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E983743D2A46DD33008F62F6 /* eleos */;
+			targetProxy = E98374502A46DD35008F62F6 /* PBXContainerItemProxy */;
+		};
+		E983745B2A46DD35008F62F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E983743D2A46DD33008F62F6 /* eleos */;
+			targetProxy = E983745A2A46DD35008F62F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E98374612A46DD35008F62F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E98374622A46DD35008F62F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E98374642A46DD35008F62F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = eleos/eleos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eleos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.eleos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E98374652A46DD35008F62F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = eleos/eleos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eleos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.eleos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E98374672A46DD35008F62F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.eleosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eleos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eleos";
+			};
+			name = Debug;
+		};
+		E98374682A46DD35008F62F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.eleosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eleos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eleos";
+			};
+			name = Release;
+		};
+		E983746A2A46DD35008F62F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.eleosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eleos;
+			};
+			name = Debug;
+		};
+		E983746B2A46DD35008F62F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.eleosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eleos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E98374392A46DD33008F62F6 /* Build configuration list for PBXProject "eleos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98374612A46DD35008F62F6 /* Debug */,
+				E98374622A46DD35008F62F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98374632A46DD35008F62F6 /* Build configuration list for PBXNativeTarget "eleos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98374642A46DD35008F62F6 /* Debug */,
+				E98374652A46DD35008F62F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98374662A46DD35008F62F6 /* Build configuration list for PBXNativeTarget "eleosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98374672A46DD35008F62F6 /* Debug */,
+				E98374682A46DD35008F62F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98374692A46DD35008F62F6 /* Build configuration list for PBXNativeTarget "eleosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E983746A2A46DD35008F62F6 /* Debug */,
+				E983746B2A46DD35008F62F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E98374362A46DD33008F62F6 /* Project object */;
+}
